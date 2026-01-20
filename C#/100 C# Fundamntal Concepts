@@ -1,0 +1,217 @@
+1. Language Basics
+
+Variables and Constants (int, string, bool, const)
+
+Data Types (primitive: int, double, bool; non-primitive: string, arrays)
+
+Type Conversion (implicit, explicit, Convert, Parse, TryParse)
+
+Operators (+, -, *, /, %, ++, --, ==, !=, <, >, <=, >=)
+
+Logical Operators (&&, ||, !)
+
+Nullables (int?, Nullable<T>)
+
+Strings (string, interpolation $"", String.Format, StringBuilder)
+
+Enums (enum)
+
+Constants (const, readonly)
+
+Type Inference (var, dynamic)
+
+2. Control Flow
+
+if, else if, else
+
+switch statements
+
+Ternary operator (?:)
+
+Loops: for
+
+Loops: foreach
+
+Loops: while
+
+Loops: do...while
+
+break and continue
+
+return statements
+
+Pattern matching (is, switch with patterns)
+
+3. Methods & Functions
+
+Method declaration and invocation
+
+Method parameters (by value, by reference ref, out, in)
+
+Optional parameters and default values
+
+Named parameters
+
+Method overloading
+
+Recursion
+
+Local functions
+
+Anonymous functions
+
+Lambda expressions
+
+Delegates
+
+4. Object-Oriented Programming
+
+Classes and objects
+
+Constructors
+
+Destructors (finalizers)
+
+Properties (get, set, auto-properties)
+
+Fields (private, public)
+
+Methods in classes
+
+Access modifiers (public, private, protected, internal, protected internal, private protected)
+
+Static members
+
+Inheritance
+
+virtual, override, sealed
+
+abstract classes and methods
+
+Interfaces
+
+Polymorphism
+
+Encapsulation
+
+this keyword
+
+base keyword
+
+object class methods (ToString, Equals, GetHashCode, GetType)
+
+readonly and const in classes
+
+Nested classes
+
+Partial classes
+
+5. Collections & Data Structures
+
+Arrays
+
+Multidimensional arrays
+
+Jagged arrays
+
+Lists (List<T>)
+
+Dictionaries (Dictionary<TKey, TValue>)
+
+Sets (HashSet<T>)
+
+Queues (Queue<T>)
+
+Stacks (Stack<T>)
+
+LinkedList (LinkedList<T>)
+
+IEnumerable and IEnumerator
+
+ICollection, IList
+
+Generics
+
+ReadOnlyCollection
+
+ArrayList (legacy)
+
+SortedList, SortedDictionary
+
+ObservableCollection
+
+Tuple
+
+ValueTuple
+
+KeyValuePair
+
+6. LINQ (Language Integrated Query)
+
+Select
+
+Where
+
+OrderBy, OrderByDescending
+
+ThenBy, ThenByDescending
+
+GroupBy
+
+Join
+
+Sum, Count, Average, Max, Min
+
+First, FirstOrDefault
+
+Single, SingleOrDefault
+
+Any, All
+
+Distinct
+
+Take, Skip
+
+Concat, Union, Intersect, Except
+
+ToList(), ToArray(), ToDictionary()
+
+Query syntax vs method syntax
+
+7. Exception Handling
+
+try, catch, finally
+
+Multiple catch blocks
+
+Catching specific exceptions
+
+throw keyword
+
+throw ex vs throw
+
+Custom exceptions (class MyException : Exception)
+
+8. File & I/O
+
+Reading files (File.ReadAllText, StreamReader)
+
+Writing files (File.WriteAllText, StreamWriter)
+
+FileInfo & DirectoryInfo
+
+Serialization (JsonSerializer, XmlSerializer)
+
+File paths and directories (Path.Combine, Directory.CreateDirectory)
+
+Streams and using statement
+
+File monitoring (FileSystemWatcher)
+
+9. Asynchronous Programming
+
+async and await
+
+Task and Task<T>
+
+Parallel and PLINQ
