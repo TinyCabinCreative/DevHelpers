@@ -1,0 +1,65 @@
+The faster you can find a file or a function, the faster you can fix the bug.
+
+    Ctrl + P: Quick Open. Search for and open any file in your project by name.
+
+    Ctrl + Shift + F: Global Search. Find a string across your entire workspace/folder.
+
+    Ctrl + Tab: Cycle through your recently opened files.
+
+    Ctrl + Shift + Tab: Cycle backward through opened files.
+
+    Ctrl + G: Go to Line. Type a number to jump directly to that line of code.
+
+    Alt + F12: Peek Definition. See the underlying code of a function or variable in a tiny window without leaving your current spot.
+
+Advanced Code Manipulation
+
+These shortcuts help you refactor and edit code blocks with surgical precision.
+
+    Alt + Up/Down Arrow: Move Line. Moves the current line or selected block up or down.
+
+    Shift + Alt + Up/Down Arrow: Copy Line. Duplicates the current line or selection above or below.
+
+    Ctrl + / : Toggle Comment. Instantly comments out (or uncomment) the selected lines.
+
+    Ctrl + Shift + [ / ]: Fold/Unfold. Collapse a function or loop to see the bigger picture, then expand it when needed.
+
+    Ctrl + D: Add Selection to Next Find Match. Select the next occurrence of the current word (perfect for renaming local variables).
+
+    Alt + Click: Multiple Cursors. Place multiple cursors in different spots to type the same thing in several places at once.
+
+    Shift + Alt + (Mouse Drag): Column Selection. Select a vertical "box" of text.
+
+Navigation & Layout
+
+Managing your screen real estate is half the battle in development.
+
+    Ctrl + \ (Backslash): Split Editor. View two files side-by-side.
+
+    Ctrl + B: Toggle Sidebar. Hide the file explorer to maximize your coding space.
+
+    Ctrl + ` (Backtick): Toggle Integrated Terminal. Open/hide your command line without leaving the editor.
+
+    Ctrl + Shift + M: Open the Problems Panel to see all current syntax errors or warnings.
+
+    Alt + Left/Right Arrow: Navigate Back/Forward. Jump back to your previous cursor position (very useful after clicking a "Go to Definition" link).
+
+System & Terminal Essentials
+
+For when you are working in the PowerShell, Command Prompt, or general OS.
+
+    Tab: Auto-complete. In the terminal, start typing a file path and hit Tab to finish it.
+
+    Up Arrow: Scroll through your command history in the terminal.
+
+    Ctrl + C (in Terminal): Abort. Stop a running process or script immediately.
+
+    Windows + 1, 2, 3...: Open the app pinned to your taskbar in that position (e.g., if VS Code is your first icon, hit Win + 1).
+
+    Ctrl + F4: Close the current editor tab.
+
+    Ctrl + Shift + T: Reopen closed tab. Works in both browsers and most code editors if you accidentally closed a file.
+
+    F1 or Ctrl + Shift + P: Command Palette. Access every single function of your editor by typing a keyword.
+
+    Pro Tip: In the terminal, Ctrl + R lets you search backwards through your command history. Just start typing a part of an old command, and it will find it for you.
